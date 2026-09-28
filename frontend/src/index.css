@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F5F1E6;
+    color: #2D3748;
+    font-family: 'Inter', Calibri, system-ui, sans-serif;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F1E6;
+}
+::-webkit-scrollbar-thumb {
+  background: #B7C99A;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3F5B44;
+}
+
+/* Calendar Grid animations */
+.calendar-slot-transition {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
