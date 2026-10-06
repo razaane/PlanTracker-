@@ -60,7 +60,7 @@
       "title": "Implémentation Grille Calendrier Hebdo",
       "description": "Créer la vue interactive 7 jours façon Google Calendar avec le code couleur officiel.",
       "projectId": "proj-1",
-      "status": "in_progress",
+      "status": "in_review",
       "priority": "high",
       "progress": 75,
       "dueDate": "2026-09-29",
@@ -85,7 +85,8 @@
           "completed": true
         }
       ],
-      "createdAt": "2026-09-23T10:00:00.000Z"
+      "createdAt": "2026-09-23T10:00:00.000Z",
+      "updatedAt": "2026-09-30T14:36:32.389Z"
     },
     {
       "id": "task-3",
@@ -208,6 +209,45 @@
   ],
   "slots": [
     {
+      "title": "[IA] Session Problem Solving & Algorithmique",
+      "day": 3,
+      "startTime": "09:00",
+      "endTime": "11:00",
+      "category": "problem_solving",
+      "color": "#526D82",
+      "taskId": "task-5",
+      "location": "Auto-assigné par Assistant IA",
+      "notes": "Optimisation basée sur la priorité medium",
+      "id": "slot-1790779215314-595",
+      "createdAt": "2026-09-30T14:40:15.314Z"
+    },
+    {
+      "title": "[IA] Postuler à 5 offres Ingénieur Fullstack sur LinkedIn",
+      "day": 1,
+      "startTime": "16:30",
+      "endTime": "18:00",
+      "category": "candidatures",
+      "color": "#E7AEB4",
+      "taskId": "task-3",
+      "location": "Auto-assigné par Assistant IA",
+      "notes": "Optimisation basée sur la priorité high",
+      "id": "slot-1790779215312-665",
+      "createdAt": "2026-09-30T14:40:15.312Z"
+    },
+    {
+      "title": "Sécurisation d’une application web",
+      "day": 3,
+      "startTime": "14:00",
+      "endTime": "14:30",
+      "category": "veille",
+      "color": "#B7C99A",
+      "location": "presentiel",
+      "notes": "une bon res",
+      "taskId": null,
+      "id": "slot-1790719163745-950",
+      "createdAt": "2026-09-29T21:59:23.745Z"
+    },
+    {
       "id": "slot-1",
       "title": "Cours : Architecture Distribuée",
       "day": 0,
@@ -296,26 +336,17 @@
       "notes": "Entretien technique d’1h30 portant sur Node/React et les designs patterns."
     },
     {
-      "id": "slot-9",
-      "title": "Travail Scolaire & TP MERN",
-      "day": 4,
-      "startTime": "09:00",
-      "endTime": "12:00",
-      "category": "cours",
-      "color": "#3F5B44",
-      "location": "Lab Informatique",
-      "notes": "Finalisation des modules backend et frontend."
-    },
-    {
       "id": "slot-10",
       "title": "Séance Sportive & Footing",
       "day": 5,
       "startTime": "10:00",
       "endTime": "11:30",
-      "category": "sport_trajets",
-      "color": "#E7AEB4",
+      "category": "documentation",
+      "color": "#B7C99A",
       "location": "Parc",
-      "notes": "Footing en plein air."
+      "notes": "Footing en plein air.",
+      "taskId": null,
+      "updatedAt": "2026-09-30T14:36:17.594Z"
     }
   ],
   "applications": [
@@ -412,6 +443,30 @@
     }
   ],
   "activityLogs": [
+    {
+      "taskId": "task-2",
+      "taskTitle": "Implémentation Grille Calendrier Hebdo",
+      "action": "status_change",
+      "details": "Statut changé de \"in_progress\" à \"in_review\".",
+      "id": "acti-1790778992393-139",
+      "createdAt": "2026-09-30T14:36:32.393Z"
+    },
+    {
+      "taskId": "task-2",
+      "taskTitle": "Implémentation Grille Calendrier Hebdo",
+      "action": "status_change",
+      "details": "Statut changé de \"in_review\" à \"in_progress\".",
+      "id": "acti-1790778990489-797",
+      "createdAt": "2026-09-30T14:36:30.489Z"
+    },
+    {
+      "taskId": "task-2",
+      "taskTitle": "Implémentation Grille Calendrier Hebdo",
+      "action": "status_change",
+      "details": "Statut changé de \"in_progress\" à \"in_review\".",
+      "id": "acti-1790778988602-600",
+      "createdAt": "2026-09-30T14:36:28.602Z"
+    },
     {
       "id": "log-1",
       "taskId": "task-1",
